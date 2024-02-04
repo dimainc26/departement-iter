@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<item title="INFORMATIQUE" href="informatic/">
+	<subitem>License</subitem>
+	<subitem>Master</subitem>
+	<subitem>Formation continue</subitem>
+</item>
+<item title="TELECOMMUNICATIONS" href="telecom/">
+	<subitem>License</subitem>
+	<subitem>Master</subitem>
+	<subitem>Formation continue</subitem>
+</item>
+<item title="ELECTRONIQUE ET RESEAUX" href="electronic/">
+	<subitem>License</subitem>
+	<subitem>Master</subitem>
+	<subitem>Formation continue</subitem>
+</item>
+</Root>

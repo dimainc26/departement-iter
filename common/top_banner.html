@@ -1,0 +1,69 @@
+<div id="TopBar">
+			<div id="Hostname" class="TopBarItem">
+				<img src="../lib/avatar.png"/>
+				<a>domainname</a>
+			</div>
+			<div id="SocialBtns" class="TopBarItem">
+				<a href="#"><img src="../lib/social_email"/></a>
+				<a href="#"><img src="../lib/social_facebook"/></a>
+				<a href="#"><img src="../lib/social_instagram"/></a>
+				<a href="#"><img src="../lib/social_youtube"/></a>	
+			</div>
+			<div id="SchoolCallNumber" class="TopBarItem">Tél: (+225) 08-02-33-21</div>
+		</div>
+		
+		<div id="MenuBar">
+			<div id="AccountBar">
+				<div id="LoginBtn" class="AccountBtn Btn">Se connecter
+					<div class="AccountDropdown">
+						<form class="LoginBar" onsubmit="return LoginValidate();">
+							<span></span>
+							<input id="LoginName" class="LoginBarInput" type="text" placeholder="Nom d'utilisateur"/>
+							<input id="LoginPassword" class="LoginBarInput" type="password" placeholder="Mot de passe"/>
+							<input id="LoginValidateBtn" class="LoginBarValidateBtn Btn" type="submit" value="Se Connecter"/>
+						</form>
+					</div>
+				</div>
+				<div id="SignupBtn" class="AccountBtn Btn">Créer un compte
+					<div class="AccountDropdown">
+						<form id="SignupForm" class="LoginBar" onsubmit="return SignupValidate();">
+							<span></span>
+							<input id="SignupFile" type="file" accept="image/*"/>
+							<img id="SignupAvatar" src="../lib/Avatar.png"/>
+							<input id="SignupName" class="LoginBarInput" type="text" placeholder="Nom d'utilisateur"/>
+							<input id="SignupPassword" class="LoginBarInput" type="password" placeholder="Mot de passe"/>
+							<input id="SignupEmail" class="LoginBarInput" type="email" placeholder="E-mail"/>
+							<input id="SignupContact" class="LoginBarInput" type="tel" placeholder="Contact"/>
+							<input id="SingupValidateBtn" class="LoginBarValidateBtn Btn" type="submit" value="Enregistrer"/>
+						</form>
+					</div>
+				</div>
+				<span id="LogoutBtn" class="Btn">Se déconnecter</span>
+			</div>
+			
+			<div id="MainMenu">
+				<a id="Home" class="MenuItem" href="../">Acceuil</a>
+				<div id="StudentSpace" id="StudentSpace" class="MenuItem DropdownBtn">Espace Etudiant
+					<div class="Dropdown">
+						<a href="../student_forum/">Forum Etudiant</a><br/>
+						<a href="../foad/">Foad</a><br/>
+						<a href="../old_students/">Réseaux des anciens</a><br/>
+					</div>
+				</div>
+				<div id="Departement" class="MenuItem DropdownBtn">Département ITER
+					<div class="Dropdown">
+						<a href="../rector_speech/">Mot du recteur</a><br/>
+						<a href="../director_speech/">Mot du directeur</a><br/>
+					</div>
+				</div>
+				<div id="Formations" class="MenuItem DropdownBtn">Nos formations
+					<div class="Dropdown">
+						<a href="../informatic/">Informatique</a><br/>
+						<a href="../telecom/">Télécommunication</a><br/>
+						<a href="../electronic/">Electronique</a><br/>
+						<a href="../networking/">Réseaux</a><br/>
+					</div>
+				</div>
+				<a id="ContactUs" href="../contact_us" class="MenuItem">Nous contacter</a>
+			</div>
+		</div>

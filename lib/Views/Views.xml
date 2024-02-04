@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<item src="lib/Views/0.jpg" comment="Aller à l'espace étudiant" btn="Forum Etudiant" href="student_forum/">Le but de l'éducation n'est pas de connaitre mais de savoir faire</item>
+<item src="lib/Views/1.jpg" comment="Aller à l'espace étudiant" btn="Food" href="foad/">Aider en benevola pour bien encadrer nos étudiants par des dons ou partenariat</item>
+<item src="lib/Views/2.jpg" comment="Aller à l'espace étudiant" btn="Réseaux des anciens" href="old_students/">Apprendre c'est aussi faire confiance et demander à ses ainés</item>
+</Root>

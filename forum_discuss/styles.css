@@ -1,0 +1,57 @@
+#TitleBanner{width:100%;float:left;margin-bottom:16px;height:200px;box-sizing:border-box;padding:64px 32px;background-image:url("../lib/forum_bg.jpg");background-size:cover;background-position:bottom center;}
+#TitleBanner a{font-weight:bold;text-shadow:0 0 16px black;}
+
+#ForumBox{width:30%;box-sizing:border-box;float:left;margin:0 1%;border:solid 1px #eee;}
+#SearchBar{float:left;width:100%;box-sizing:border-box;}
+#SearchInput{width:400px;height:32px;box-sizing:border-box;padding:8px 8px;background-color:white;border:solid 1px #ccc;margin:16px 0 0 8px;}
+#SearchBtn{width:32px;height:32px;margin:-16px 0 0 0;position:relative;top:10px;left:-5px;cursor:pointer;border:solid 1px #ccc;box-sizing:border-box;}
+
+#ForumCreateBtn{float:left;width:100%;box-sizing:border-box;height:48px;border-top:solid 1px #eee;padding:12px 0 0 16px;font-weight:500;cursor:pointer;}
+#ForumCreateBtn:hover{background-color:#eee;}
+#ForumCreateIcon{width:24px;height:24px;margin-bottom:-6px;margin-right:6px;}
+#ForumCreateMinus{float:right;color:gray;font-size:28px;font-weight:bold;margin-top:-10px;margin-right:8px;}
+
+#ForumCreateForm{overflow:hidden;float:left;display:none;width:100%;padding:8px 8px 0 8px;box-sizing:border-box;}
+.ForumInput{width:100%;margin-bottom:8px;background-color:white;color:black;border:solid 1px #ccc;padding:6px 8px;box-sizing:border-box;}
+.ForumValidateBtn{color:white;background-color:#2D6CDF;padding:8px 24px;border-radius:16px;border:none;cursor:pointer;margin-left:50%;transform:translateX(-50%);}
+
+
+
+#ForumList{float:left;width:67%;border:solid 1px #eee;margin-bottom:16px;}
+#ForumListTitle{float:left;background-color:#ccc;width:100%;padding:16px;box-sizing:border-box;font-weight:bold;}
+#ForumListBody{float:left;max-height:480px;overflow:auto;width:100%;}
+
+.DiscussItem{float:left;width:100%;box-sizing:border-box;padding:16px;cursor:pointer;border-top:solid 1px #eee;}
+.DiscussLeftPart{float:left;width:180px;box-sizing:border-box;padding:8px;border-right:solid 1px #eee;}
+.DiscussLeftPart a{float:left;width:100%;margin-bottom:8px;font-weight:bold;text-align:center;}
+.DiscussLeftPart img{margin-left:48px;float:left;width:64px;height:64px;border-radius:50%;background-color:#f8f;}
+.DiscussLeftPart span{margin-left:48px;float:left;width:48px;height:48px;border-radius:50%;font-size:32px;color:white;font-weight:500;background-color:#f8f;padding:8px;text-align:center;}
+
+.DiscussRightPart{float:left;box-sizing:border-box;padding:8px;}
+.DiscussRightPart a{float:left;color:#aaa;}
+.DiscussRightPart p{float:left;width:100%;}
+
+
+#DiscussPost{float:right;width:67%;padding:16px 16px 28px 16px;box-sizing:border-box;margin-right:12px;border:solid 1px #eee;margin-bottom:16px;}
+#DiscussPostUser{float:left;}
+#DiscussPostUser img{width:48px;height:48px;border-radius:50%;margin-bottom:-16px;}
+#DiscussPostUser a{font-size:24px;font-weight:500;margin-left:4px;}
+
+#DiscussPost textarea{width:100%;resize:none;margin-top:16px;box-sizing:border-box;padding:16px;border:solid 1px #eee;}
+#DiscussPost span{color:white;padding:6px 48px;border-radius:32px;cursor:pointer;font-weight:bold;position:relative;top:16px;}
+#DiscussPost span:hover{box-shadow:0 0 8px black;}
+
+
+@media only screen and (max-width:896px){
+	#ForumBox{width:100%;}
+	#ForumList{width:100%;}
+	#DiscussPost{width:100%;float:left;margin-right:0;}
+}
+
+@media only screen and (max-width:524px){
+	.ForumItemPost{display:none;}
+}
+
+@media only screen and (max-width:320px){
+	.ForumItemAuthor{display:none;}
+}

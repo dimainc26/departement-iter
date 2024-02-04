@@ -1,0 +1,7 @@
+#DirectorPost{float:left;width:100%;height:360px;box-sizing:border-box;background-image:url(../lib/speech_post2_bg.jpg);background-size:cover;padding-top:72px;}
+#DirectorPost img{width:128px;height:128px;border-radius:50%;}
+#DirectorPost a{color:white;font-size:4vw;font-weight:bold;}
+#DirectorPost hr{width:20%;height:4px;background-color:white;border:none;}
+
+#SpeechBanner{float:left;width:100%;padding:3% 10%;box-sizing:border-box;}
+#Speech{font-size:36px;}

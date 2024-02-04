@@ -1,0 +1,65 @@
+body{margin:0;padding:0;height:100%;}
+*{font-family:Segoe UI;font-size:15px;font-weight:300;}
+
+#Preloader{position:fixed;background-color:white;z-index:5;width:100%;height:100%;}
+#PreloaderImg{position:fixed;}
+
+.Btn{background-image:url(../lib/btn_bg.jpg);background-size:cover;transition:all 0.5s;}
+.Btn:hover{background-position:bottom right;}
+.Slash{position:relative;color:white;font-size:7vw;font-weight:bold;top:4px;}
+.Title{color:white;font-size:4vw;}
+.BlackColor{color:black}
+
+#TopBanner{float:left;width:100%;Background-color:white;}
+
+#TopBar{float:left;width:100%;padding:0 8%;border-bottom:solid 1px #eee;box-sizing:border-box;}
+.TopBarItem{color:gray;padding:9px;}
+#Hostname{float:left;border-left:solid 1px #eee;border-right:solid 1px #eee;padding:4px 9px 10px 9px;}
+#Hostname img{width:32px;height:32px;border-radius:50%;margin-bottom:-12px;}
+#SchoolCallNumber{float:right;border-left:solid 1px #eee;border-right:solid 1px #eee;}
+#SocialBtns{float:right;border-right:solid 1px #eee;padding:8px 8px 4px 8px;}
+#SocialBtns a{margin-left:4px}
+#SocialBtns img{width:22px;height:22px;}
+
+#MenuBar{float:left;width:100%;padding:24px 8% 24px 104px;border-bottom:solid 1px #eee;box-sizing:border-box;}
+#AccountBar{float:left;}
+.AccountBtn{display:none;float:left;height:28px;padding:4px 8px;color:white;cursor:pointer;margin-right:8px;box-sizing:border-box;}
+.AccountDropdown{display:none;position:absolute;padding:28px 0;z-index:2;background-color:transparent;margin-top:0px;margin-left:-8px;}
+.LoginBar{padding:16px;width:240px;float:left;background-color:#222;box-shadow:0 10px 10px rgba(0,0,0,0.5);border-radius:4px;}
+.LoginBar span{float:left;position:relative;top:-21px;left:10px;border-top:solid 12px #222;border-right:solid 12px transparent;transform:rotateZ(45deg);}
+#SignupAvatar{cursor:pointer;width:80px;height:80px;border-radius:15%;border:solid 3px #ccc;margin-bottom:16px;margin-left:45%;transform:translateX(-50%)}
+#SignupAvatar:hover{border-color:#fa0;}
+#SignupFile{display:none;}
+.LoginBarInput{width:100%;margin-bottom:8px;background-color:white;color:black;border:solid 1px #ccc;padding:6px 8px;}
+.LoginBarValidateBtn{color:white;background-color:#2D6CDF;padding:8px 24px;border-radius:16px;border:none;cursor:pointer;margin-left:50%;transform:translateX(-50%);}
+#LogoutBtn{display:none;float:left;height:28px;padding:4px 8px;color:white;cursor:pointer;margin-right:8px;box-sizing:border-box;}
+
+#MainMenu{float:right;}
+.MenuItem{float:left;padding:0 6px;color:black;text-decoration:none;cursor:pointer;border:solid 1px transparent;margin-right:16px;}
+.MenuItem:hover{color:#f66;}
+.Active{font-weight:510;}
+#StudentSpace{display:none;}
+
+.DropdownBtn{}
+.DropdownBtn:hover{border:solid 1px black;}
+.DropdownBtn:hover .Dropdown{display:block;}
+.Dropdown{float:left;position:absolute;z-index:2;background-color:#222;display:none;margin-left:-7px;box-shadow:0 10px 10px rgba(0,0,0,0.5);padding:8px;}
+.Dropdown a{float:left;width:128px;color:white;text-decoration:none;cursor:pointer;padding:8px 8px;}
+.Dropdown a:hover{color:#f66;}
+.SubActive{font-weight:510;}
+
+
+#BottomBanner{float:left;width:100%;padding:8px;box-sizing:border-box;bottom:0;background-color:black;color:white;}
+#BottomBanner div{float:left;width:64px;height:64px;margin-top:16px;margin-bottom:16px;margin-left:50%;transform:translateX(-50%);}
+#BottomBanner b{float:left;font-weight:bold;width:100%;text-align:center;margin-bottom:8px;}
+#BottomBanner a{float:left;width:100%;text-align:center;font-size:11px;margin-bottom:16px;}
+
+
+@media only screen and (max-width:512px){
+	#TopBar{padding:0;}
+	#SchoolCallNumber{display:none;}
+	#SocialBtns{border-left:solid 1px #eee;}
+	
+	#SignupForm{margin-left:-80px;}
+	#SignupForm span{margin-left:80px;}
+}

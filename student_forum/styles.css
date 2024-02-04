@@ -1,0 +1,54 @@
+#TitleBanner{width:100%;float:left;margin-bottom:16px;height:200px;box-sizing:border-box;padding:64px 32px;background-image:url("../lib/forum_bg.jpg");background-size:cover;background-position:bottom center;}
+#TitleBanner a{font-weight:bold;text-shadow:0 0 16px black;}
+
+#ForumBox{width:30%;box-sizing:border-box;float:left;margin:0 1%;border:solid 1px #eee;}
+#SearchBar{float:left;width:100%;box-sizing:border-box;}
+#SearchInput{width:400px;height:32px;box-sizing:border-box;padding:8px 8px;background-color:white;border:solid 1px #ccc;margin:16px 0 0 8px;}
+#SearchBtn{width:32px;height:32px;margin:-16px 0 0 0;position:relative;top:10px;left:-5px;cursor:pointer;border:solid 1px #ccc;box-sizing:border-box;}
+
+#ForumCreateBtn{float:left;width:100%;box-sizing:border-box;height:48px;border-top:solid 1px #eee;padding:12px 0 0 16px;font-weight:500;cursor:pointer;}
+#ForumCreateBtn:hover{background-color:#eee;}
+#ForumCreateIcon{width:24px;height:24px;margin-bottom:-6px;margin-right:6px;}
+#ForumCreateMinus{float:right;color:gray;font-size:28px;font-weight:bold;margin-top:-10px;margin-right:8px;}
+
+#ForumCreateForm{overflow:hidden;float:left;display:none;width:100%;padding:8px 8px 0 8px;box-sizing:border-box;}
+.ForumInput{width:100%;margin-bottom:8px;background-color:white;color:black;border:solid 1px #ccc;padding:6px 8px;box-sizing:border-box;}
+.ForumValidateBtn{color:white;background-color:#2D6CDF;padding:8px 24px;border-radius:16px;border:none;cursor:pointer;margin-left:50%;transform:translateX(-50%);}
+
+
+
+#ForumList{float:left;width:67%;border:solid 1px #eee;margin-bottom:16px;}
+#ForumListTitle{float:left;background-color:#ccc;width:100%;padding:16px;box-sizing:border-box;font-weight:bold;}
+#ForumListBody{float:left;max-height:640px;overflow:auto;width:100%;}
+
+.ForumItem{float:left;width:100%;box-sizing:border-box;padding:16px;cursor:pointer;border-top:solid 1px #eee;}
+.ForumItem:hover{background-color:#f0f0f0;}
+.ForumItemIcon{float:left;width:48px;height:48px;padding:8px;}
+.ForumItemTitle{float:left;width:144px;margin-left:8px;padding-top:12px;}
+.ForumItemTitle b{font-weight:bold;}
+.ForumItemTitle a{font-size:13px;}
+
+.ForumItemRight{float:right;}
+.ForumItemPost{float:left;margin-right:64px;}
+.ForumItemPost a{text-align:center;font-size:32px;font-weight:500;}
+.ForumItemTitle b{font-weight:bold;}
+
+.ForumItemAuthor{float:left;}
+.ForumItemAuthor span{float:left;width:48px;height:48px;border-radius:50%;font-size:32px;color:white;font-weight:500;background-color:#f8f;padding:8px;text-align:center;}
+.ForumItemAuthor img{float:left;width:64px;height:64px;border-radius:50%;background-color:#f8f;}
+.ForumItemAuthor a{margin-left:8px;float:left;margin-top:20px;width:80px;font-size:11px;font-weight:bold;}
+
+
+
+@media only screen and (max-width:896px){
+	#ForumBox{width:100%;}
+	#ForumList{width:100%;}
+}
+
+@media only screen and (max-width:524px){
+	.ForumItemPost{display:none;}
+}
+
+@media only screen and (max-width:320px){
+	.ForumItemAuthor{display:none;}
+}

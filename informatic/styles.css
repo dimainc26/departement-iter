@@ -1,0 +1,9 @@
+#DirectorPost{float:left;width:100%;height:208px;box-sizing:border-box;background-image:url(../lib/speech_post_bg.jpg);background-size:cover;padding-top:72px;}
+#DirectorPost a{color:white;font-size:4vw;font-weight:bold;}
+
+#SpeechBanner{float:left;width:100%;padding:3% 10%;box-sizing:border-box;}
+#SpeechBanner div{}
+#SpeechBanner b,#SpeechBanner a,#SpeechBanner li{font-size:30px;}
+#SpeechBanner b{font-weight:bold;}
+#SpeechBanner li{color:#f44;}
+#SpeechBanner ul{font-size:24px;color:black;}
