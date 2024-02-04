@@ -5,8 +5,7 @@ In the context of a project for the ITER university, I started developing a webs
 
 ## Screenshot
 
-
-![screenshot_04_02_2024 16-01-55](https://github.com/dimainc26/finance_site/assets/125144533/b8558747-3e0c-4683-9a5e-7535c6722733)
+![screenshot-dev dimazanre com-2024 02 04-17_21_18](https://github.com/dimainc26/departement-iter/assets/125144533/f2a1c2ff-e67e-4612-8b44-e2fa8d3b1309)
 
 
 ## Tecnologie Utilizzate
