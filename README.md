@@ -12,7 +12,10 @@ In the context of a project for the ITER university, I started developing a webs
 
 - HTML5
 - CSS3
+- PHP
 
 ## Caratteristiche
 
-- Responsive
+- NoSQL
+- Files
+- Directory
