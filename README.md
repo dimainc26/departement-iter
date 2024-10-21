@@ -19,6 +19,7 @@ L'expérience m'a permis de renforcer mes compétences en PHP, en explorant des 
 
 ## Captures d'écran
 ![Home Screen](https://github.com/dimainc26/departement-iter/blob/main/assets/home.png)
+![Home Screen](https://github.com/dimainc26/departement-iter/blob/main/assets/feature1.png)
 ![screenshot-dev dimazanre com-2024 02 04-17_21_18](https://github.com/dimainc26/departement-iter/assets/125144533/f2a1c2ff-e67e-4612-8b44-e2fa8d3b1309)
 
 ## Démo
